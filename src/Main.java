@@ -13,7 +13,6 @@ public class Main {
         PrintWriter writer1000 = new PrintWriter(new BufferedWriter(new FileWriter("db1000.txt", true)));
         PrintWriter writer10000 = new PrintWriter(new BufferedWriter(new FileWriter("db10000.txt", true)));
         PrintWriter writer1000000 = new PrintWriter(new BufferedWriter(new FileWriter("db1000000.txt", true)));
-        Crypt crypter = new Crypt();
         for (int i = 0; i < 1000000; i++) {
             int a1 = rand.nextInt(2) + 1;
             int a2 = 9;
